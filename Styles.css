@@ -1,0 +1,12 @@
+main:first-child p {
+    font-size: larger;
+    font-style: italic;
+}
+
+#f3 {
+    border: 2em dashed #5eff00;
+}
+
+h2 {
+    font-style: oblique;
+}
