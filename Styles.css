@@ -4,9 +4,33 @@ main:first-child p {
 }
 
 #f3 {
-    border: 2em dashed #5eff00;
+    border: 2em dashed #51bc13;
+}
+
+h1 {
+    clear: left;
 }
 
 h2 {
     font-style: oblique;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li a {
+    float: left;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #187c18;
+    color: #ffffff;
+    font-weight: bold;
+    border-right: 2px solid #ffffff;
 }
