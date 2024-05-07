@@ -1,3 +1,7 @@
+html {
+    background-image: linear-gradient(to bottom, #808080, #ffffff);
+}
+
 main:first-child p {
     font-size: larger;
     font-style: italic;
@@ -5,6 +9,8 @@ main:first-child p {
 
 #f3 {
     border: 2em dashed #51bc13;
+    margin: 2em;
+    padding: 2em;
 }
 
 h1 {
@@ -33,4 +39,15 @@ h2 {
     color: #ffffff;
     font-weight: bold;
     border-right: 2px solid #ffffff;
+}
+
+p ul {
+    margin: 2em;
+    padding-bottom: 2em;
+    border: 2em;
+}
+
+h2 p {
+    columns: 2;
+    float: 2em;
 }
