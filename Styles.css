@@ -12,15 +12,30 @@ main:first-child p {
     font-style: italic;
 }
 
-#f3 {
-    border: 1em dashed #51bc13;
-    margin: 1em;
-    padding: 1em;
-}
-
 h1 {
     font-size: x-large;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "sq1 sq2"
+}
+
+#gameC {
+    grid-area: sq1;
+    width: 100%;
+}
+
+#consoles {
+    grid-area: sq2;
+    width: 100%;
+}
+
+
 
 h2 {
     font-style: oblique;
