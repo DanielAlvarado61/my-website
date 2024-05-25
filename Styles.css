@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom, #808080, #ffffff);
+    background-image: linear-gradient(to bottom, #777777, #ffffff);
 }
 
 body {
@@ -16,7 +16,7 @@ h1 {
     font-size: x-large;
 }
 
-.grid-container {
+#gc1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -28,14 +28,14 @@ h1 {
 #gameC {
     grid-area: sq1;
     width: 100%;
+    height: auto;
 }
 
 #consoles {
     grid-area: sq2;
     width: 100%;
+    height: auto
 }
-
-
 
 h2 {
     font-style: oblique;
@@ -77,6 +77,50 @@ h2 p {
     columns: 2;
 }
 
+#gc2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+        "fga1 fga2 fga3"
+}
+
+#f3 {
+    grid-area: fga1;
+    width: 100%;
+    height: auto;
+}
+
+#fnv {
+    grid-area: fga2;
+    width: 100%;
+    height: auto;
+}
+
+#f76 {
+    grid-area: fga3;
+    width: 100%;
+    height: auto;
+}
+
+#gw1 {
+    width: 1200px;
+    height: 450px;
+}
+
+#fl2 {
+    display: flex;
+}
+
+#marcus1 {
+    width: 50%;
+}
+
+#fl2txt {
+    padding-left: 10px;
+}
+
 /*media to change according to device screen*/
 @media only screen and (max-width: 782px) {
     #nav_menu ul {
@@ -87,15 +131,36 @@ h2 p {
     #nav_menu ul li {
         width: 100%;
     }
-
-    #f3 {
-        min-width: 200px;
-        width: 20%;
-    }
 }
 
 @media only screen and (max-width: 588px) {
     #nav_menu ul {
-        font-size: 12px
+        font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 1030px) {
+    #gw1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    #halo2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    #mass1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
