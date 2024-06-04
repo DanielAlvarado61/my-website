@@ -1,0 +1,5 @@
+1.Disable the repeating gradient on the home page. This will add a more seamless look to the page, Code: "background-repeat: no-repeat;"
+I went into the CSS and put in background no repeat.
+2.Remove the white line on the far right of your navigation bar for a cleaner look.
+Center the navigation bar and content to make it easier to read.
+I got rid of the white line on the far most right of my navagation menu and I centered my navigation menu plus all my content.
