@@ -11,6 +11,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 
 main {
@@ -125,7 +126,6 @@ h2 p {
 }
 
 .carousel {
-    max-width: 600px;
     margin: 0 auto;
 }
 
