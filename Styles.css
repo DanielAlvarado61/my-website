@@ -1,63 +1,21 @@
 html {
-    background-image: linear-gradient(to bottom, #777777, #ffffff);
+    background-image: linear-gradient(to bottom, #777777,  #b9b3b3);
     background-repeat: no-repeat;
     text-align: center;
-    font-family: "Ubuntu";
 }
-
-.ubuntu-light {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.ubuntu-regular {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.ubuntu-medium {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.ubuntu-bold {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.ubuntu-light-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.ubuntu-regular-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.ubuntu-medium-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.ubuntu-bold-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
 
 body {
     width: 90%;
     max-width: 1024px;
     margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: auto;
+    text-align: center;
 }
 
 main:first-child p {
@@ -68,7 +26,7 @@ main:first-child p {
 h1 {
     font-size: x-large;
 }
-
+/*index page */
 #gc1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -133,7 +91,7 @@ p ul {
 h2 p {
     columns: 2;
 }
-
+/*fallout page*/
 #gc2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -160,24 +118,27 @@ h2 p {
     width: 100%;
     height: auto;
 }
-
+/*gears of war page*/
 #gw1 {
     width: 100%;
     height: auto;
 }
 
-#fl2 {
-    display: flex;
+.carousel {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    height: auto;
+    object-fit: cover;
 }
 
 #marcus1 {
     width: 50%;
 }
 
-#fl2txt {
-    padding-left: 10px;
-}
-
+/*halo page*/
 #halo-1 {
     width: 100%;
     height: auto;
